@@ -1,0 +1,18 @@
+SyntaxError: invalid syntax
+语法错误：无效语法
+
+KeyError
+键错误
+
+TypeError: takes no arguments
+类型错误 没有参数
+原因：构造函数书写格式是__init__
+
+IndexError: list index out of range
+错误出现的原因主要有两个，一个可能是下标超出范围，一个可能是list是空的，没有一个元素.
+
+During handling of the above exception, another exception occurred:
+这是由于频繁访问网站造成的,在访问失败后，添加 time.sleep(), 然后重新访问即可。
+
+Fatal Python error: Cannot recover from stack overflow.
+使用函数时递归调用次数过多（1000多），导致栈溢出。
